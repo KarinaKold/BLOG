@@ -9,7 +9,7 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"format": "prettier --write ./src",
-		"start:json": "npx json-server@0.17.4 --watch db.json"
+		"start:json": "npx json-server@0.17.4 --watch src/db.json"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -22,6 +22,7 @@
 		]
 	},
 	"dependencies": {
+		"@hookform/resolvers": "^5.2.2",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-prettier": "^5.5.5",
 		"prop-types": "^15.8.1",
