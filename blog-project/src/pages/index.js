@@ -1,1 +1,2 @@
-export * from './authorization/authorization';
+export * from './authorization/Authorization';
+export * from './registration/Registration';
