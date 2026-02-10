@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { H2, Icon } from '../../../../components';
+import { H2, Icon } from '../../../../components/';
 
 const PostContentContainer = ({
 	className,

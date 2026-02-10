@@ -108,16 +108,9 @@
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2059-04-29 20:57",
-      "content": "Мой первый комментарий 2",
-      "id": 2
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2055-06-26 12:06",
+      "published_at": "2047-01-23 15:39",
       "content": "Комментарий",
-      "id": 3
+      "id": 2
     }
   ],
   "sessions": [

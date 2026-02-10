@@ -6,3 +6,4 @@ export * from './button/Button';
 export * from './h2/H2';
 export * from './auth-form-error/auth-form-error';
 export * from './content/Content';
+export * from './modal/Modal'
