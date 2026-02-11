@@ -8,7 +8,7 @@ import {
 } from '../../selectors';
 import { Button } from '../button/Button';
 
-export const ModalContainer = ({ className }) => {
+const ModalContainer = ({ className }) => {
 	const isOpen = useSelector(selectModalIsOpen);
 	const text = useSelector(selectModalText);
 	const onConfirm = useSelector(selectModalOnConfirm);

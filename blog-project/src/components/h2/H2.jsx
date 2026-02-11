@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const H2Container = ({ children, className }) => {
+const H2Container = ({ children, className }) => {
 	return <div className={className}>{children}</div>;
 };
 
