@@ -13,6 +13,13 @@
       "registed_at": "2039-07-19 02:48",
       "role_id": 1,
       "id": "002"
+    },
+    {
+      "login": "petr",
+      "password": "qwe123",
+      "registed_at": "2044-09-09 09:05",
+      "role_id": 2,
+      "id": "hEuJ6hQ"
     }
   ],
   "roles": [
@@ -139,6 +146,34 @@
       "published_at": "2040-04-23 13:36",
       "content": "Первый комментарий",
       "id": 3
+    },
+    {
+      "author_id": "hEuJ6hQ",
+      "post_id": "001",
+      "published_at": "2060-07-25 20:10",
+      "content": "petr",
+      "id": 4
+    },
+    {
+      "author_id": "hEuJ6hQ",
+      "post_id": "001",
+      "published_at": "2063-08-19 16:44",
+      "content": "hello",
+      "id": 5
+    },
+    {
+      "author_id": "hEuJ6hQ",
+      "post_id": "001",
+      "published_at": "2064-01-01 03:49",
+      "content": "goodbye",
+      "id": 6
+    },
+    {
+      "author_id": "002",
+      "post_id": "002",
+      "published_at": "2039-05-17 15:38",
+      "content": "hi",
+      "id": 7
     }
   ],
   "sessions": [
@@ -176,13 +211,13 @@
       "id": 3
     },
     {
-      "hash": "0.32766116709050729927099609994911588728427886962891",
+      "hash": "0.01837907463110488581747858916060067713260650634766",
       "user": {
-        "id": "002",
-        "login": "ivan",
-        "password": "qwerty123",
-        "registeredAt": "2039-07-19 02:48",
-        "roleId": 1
+        "id": "001",
+        "login": "Karina",
+        "password": "qwerty",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
       },
       "id": 4
     }
