@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 export const ButtonContainer = ({ children, className, ...props }) => {
@@ -22,3 +23,7 @@ export const Button = styled(ButtonContainer)`
 		cursor: ${({ disabled }) => (disabled ? 'default' : 'pointer')};
 	}
 `;
+
+Button.propTypes = {
+	children: PropTypes.node.isRequired,
+};
